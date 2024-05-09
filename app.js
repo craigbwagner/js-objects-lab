@@ -63,6 +63,8 @@ Solve Exercise 6 here:
 
 game.party.sort((a, b) => b.hp - a.hp);
 
+
+
 // console.dir(pokemon, { maxArrayLength: null });
 console.log(game);
 
