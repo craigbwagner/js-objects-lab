@@ -64,6 +64,26 @@ Solve Exercise 6 here:
 game.party.sort((a, b) => b.hp - a.hp);
 
 
+/*
+Exercise 7
+1. Set the `completed` property to true for gyms with a difficulty below 3.
+2. Think about how you'd loop through the `gyms` array to check and update the `completed` property.
+
+
+Solve Exercise 7 here:
+*/
+
+game.gyms.forEach(gym => {
+    if (gym.difficulty < 3) {
+        gym.completed = true;
+    }
+})
+
+
+
+
+
+
 
 // console.dir(pokemon, { maxArrayLength: null });
 console.log(game);
