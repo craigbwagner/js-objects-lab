@@ -52,5 +52,17 @@ game.party.push(pokemon[24]);
 game.party.push(pokemon[37]);
 game.party.push(pokemon[38]);
 
+/*
+Exercise 6
+1. Arrange the Pokémon in `game.party` by their HP. The one with the highest HP should come first.
+2. You'll need to use the `.sort()` method. How does the compare function work in sorting numbers?
+
+
+Solve Exercise 6 here:
+*/
+
+game.party.sort((a, b) => b.hp - a.hp);
+
 // console.dir(pokemon, { maxArrayLength: null });
 console.log(game);
+
