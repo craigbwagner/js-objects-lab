@@ -101,8 +101,6 @@ game.party.splice(2, 1, pokemon[7]);
 
 
 
-
-
 // console.dir(pokemon, { maxArrayLength: null });
 console.log(game);
 
